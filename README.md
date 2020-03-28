@@ -15,12 +15,14 @@ SpringBoot-Doma2 で利用するコードを生成しています。
 
 ## Usage
 
+```
 $ ./gradlew codegen -PsubSystem=system -Pfunc=sample -PfuncStr=SAMPLE -Ptarget=dao
 $ ./gradlew codegen -PsubSystem=system -Pfunc=sample -PfuncStr=SAMPLE -Ptarget=dto
 $ ./gradlew codegen -PsubSystem=system -Pfunc=sample -PfuncStr=SAMPLE -Ptarget=repository
 $ ./gradlew codegen -PsubSystem=system -Pfunc=sample -PfuncStr=SAMPLE -Ptarget=service
 $ ./gradlew codegen -PsubSystem=system -Pfunc=sample -PfuncStr=SAMPLE -Ptarget=controller
 $ ./gradlew codegen -PsubSystem=system -Pfunc=system -PfuncStr=SAMPLE -Ptarget=html
+```
 
 ## Install
 

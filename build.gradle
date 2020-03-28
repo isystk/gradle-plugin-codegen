@@ -1,0 +1,19 @@
+
+apply plugin: com.sample.CodeGenPlugin
+
+codegen {
+    domainProjectName = "business"
+    webProjectName = "web-admin"
+
+    commonDtoPackageName = "com.isystk.sample.domain.dto.common"
+    daoPackageName = "com.isystk.sample.domain.dao"
+    dtoPackageName = "com.isystk.sample.domain.entity"
+    repositoryPackageName = "com.isystk.sample.domain.repository"
+    servicePackageName = "com.isystk.sample.domain.service"
+    commonServicePackageName = "com.isystk.sample.domain.service"
+    exceptionPackageName = "com.isystk.sample.domain.exception"
+    webBasePackageName = "com.isystk.sample.web.base"
+    baseValidatorPackageName = "com.isystk.sample.domain.validator"
+    baseControllerPackageName = "com.isystk.sample.web.base.controller.html"
+    controllerPackageName = "com.isystk.sample.web.admin.controller.html"
+}
